@@ -1,0 +1,5 @@
+node_modules/
+.env
+.DS_Store
+Landing_Page_Sisi_Siqueira.zip
+package-lock.json

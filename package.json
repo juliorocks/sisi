@@ -1,0 +1,25 @@
+{
+  "name": "sisi",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliorocks/sisi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliorocks/sisi/issues"
+  },
+  "homepage": "https://github.com/juliorocks/sisi#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ftp-deploy": "^2.4.7"
+  }
+}

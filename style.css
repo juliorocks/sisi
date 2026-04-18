@@ -490,6 +490,61 @@ ul {
     color: var(--text-light);
 }
 
+/* --- EXAMPLES SECTION --- */
+.examples-section {
+    background: var(--bg-white);
+    padding-bottom: 40px;
+}
+
+.examples-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.example-card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: var(--shadow-hover);
+    border: 1px solid var(--border-gray);
+    transition: var(--transition);
+    background: #f8f9fa;
+}
+
+.example-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.example-card:hover img {
+    transform: scale(1.05);
+}
+
+.example-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    padding: 30px 20px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.example-card:hover .example-overlay {
+    opacity: 1;
+}
+
 /* --- MAP VISUAL --- */
 .map-visual {
     background: #e8f0fe33;
