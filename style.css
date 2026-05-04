@@ -50,6 +50,7 @@ section {
 
 h1, h2, h3, h4 {
     font-weight: 600;
+    line-height: 1.25;
 }
 
 a {
@@ -493,7 +494,8 @@ ul {
 /* --- EXAMPLES SECTION --- */
 .examples-section {
     background: var(--bg-white);
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .examples-grid {
@@ -550,7 +552,9 @@ ul {
 
 /* --- MAP VISUAL --- */
 .map-visual {
-    background: #e8f0fe33;
+    background: #f0f7ff;
+    border-top: 1px solid #e1efff;
+    border-bottom: 1px solid #e1efff;
 }
 
 .map-content {
@@ -921,8 +925,37 @@ ul {
         flex-direction: column;
     }
 
+    .logo img {
+        height: 30px;
+    }
+
     section {
+        padding: 24px 0;
+    }
+
+    .hero {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+
+    .map-visual {
         padding: 60px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .map-image-wrapper {
+        display: none;
+    }
+
+    .map-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 1.2;
     }
 }
 
